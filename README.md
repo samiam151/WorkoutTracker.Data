@@ -1,8 +1,8 @@
-# Create virtual environment
+### Create virtual environment
 virtualenv .
 
-# Activate the virtualenv
+### Activate the virtualenv
 source bin/activate
 
-# Install dependencies
+### Install dependencies
 pip install requirements.txt
