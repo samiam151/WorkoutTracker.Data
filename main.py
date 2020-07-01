@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-from helpers import isDataContainer
+from helpers import isDataContainer, isTitleContainer
 
 # Get main HTML
 html = requests.get("https://exrx.net/Lists/ExList/HipsWt#Abductors")
@@ -14,12 +14,14 @@ numDataContainers = 0
 numTitleContainers = 0
 
 containers = mainHtml.findAll("div", attrs={"class": "container"}, recusive = False)
-for container in containers:
+for index, container in enumerate(containers):
     # print(container)
-    if (isDataContainer(container)):
+    if (isDataContainer(container, index)):
         numDataContainers = numDataContainers + 1
+    elif (isTitleContainer(container, index)):
+        numTitleContainers = numTitleContainers + 1
     else:
-        numTitleContainers = numDataContainers + 1
+        print("Neither container")
 
 if __name__ == "__main__":
     print('Data: {0}'.format(numDataContainers))
