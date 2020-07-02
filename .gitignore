@@ -2,6 +2,8 @@
 bin
 lib
 __pycache__
+pyvenv.cfg
+.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
