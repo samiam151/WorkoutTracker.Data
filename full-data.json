@@ -1,0 +1,238 @@
+{
+    "Neck": [
+        {
+            "name": "Sternocleidomastoid",
+            "depth": 1
+        },
+        {
+            "name": "Splenius",
+            "depth": 1
+        }
+    ],
+    "Shoulders": [
+        {
+            "name": "Deltoid",
+            "depth": 1
+        },
+        {
+            "name": "Supraspinatus",
+            "depth": 1
+        }
+    ],
+    "Deltoid": [
+        {
+            "name": "Anterior",
+            "depth": 2
+        },
+        {
+            "name": "Lateral",
+            "depth": 2
+        },
+        {
+            "name": "Posterior",
+            "depth": 2
+        }
+    ],
+    "Upper Arms": [
+        {
+            "name": "Triceps Brachii",
+            "depth": 1
+        },
+        {
+            "name": "Biceps Brachii",
+            "depth": 1
+        },
+        {
+            "name": "Brachialis",
+            "depth": 1
+        }
+    ],
+    "Forearms": [
+        {
+            "name": "Brachioradialis",
+            "depth": 1
+        },
+        {
+            "name": "Wrist",
+            "depth": 1
+        },
+        {
+            "name": "Pronators",
+            "depth": 1
+        },
+        {
+            "name": "Supinators",
+            "depth": 1
+        }
+    ],
+    "General": [
+        {
+            "name": "Flexors",
+            "depth": 2
+        },
+        {
+            "name": "Upper",
+            "depth": 2
+        },
+        {
+            "name": "Middle",
+            "depth": 2
+        },
+        {
+            "name": "Lower",
+            "depth": 2
+        },
+        {
+            "name": "Sternal",
+            "depth": 2
+        },
+        {
+            "name": "Clavicular",
+            "depth": 2
+        }
+    ],
+    "Wrist": [
+        {
+            "name": "Extensors",
+            "depth": 2
+        }
+    ],
+    "Back": [
+        {
+            "name": "Latissimus Dorsi & Teres Major",
+            "depth": 1
+        },
+        {
+            "name": "Trapezius",
+            "depth": 1
+        },
+        {
+            "name": "Levator Scapulae",
+            "depth": 1
+        },
+        {
+            "name": "Rhomboids",
+            "depth": 1
+        },
+        {
+            "name": "Infraspinatus & Teres Minor",
+            "depth": 1
+        },
+        {
+            "name": "Subscapularis",
+            "depth": 1
+        }
+    ],
+    "Calves": [
+        {
+            "name": "General",
+            "depth": 1
+        },
+        {
+            "name": "Gastrocnemius",
+            "depth": 1
+        },
+        {
+            "name": "Soleus",
+            "depth": 1
+        },
+        {
+            "name": "Tibialis Anterior",
+            "depth": 1
+        },
+        {
+            "name": "Popliteus",
+            "depth": 1
+        }
+    ],
+    "Chest": [
+        {
+            "name": "Pectoralis Major",
+            "depth": 1
+        },
+        {
+            "name": "Pectoralis Minor",
+            "depth": 1
+        },
+        {
+            "name": "Serratus Anterior",
+            "depth": 1
+        }
+    ],
+    "Waist": [
+        {
+            "name": "Rectus Abdominis",
+            "depth": 1
+        },
+        {
+            "name": "Transverse Abdominis",
+            "depth": 1
+        },
+        {
+            "name": "Obliques",
+            "depth": 1
+        },
+        {
+            "name": "Quadratus Lumborum",
+            "depth": 1
+        },
+        {
+            "name": "Erector Spinae",
+            "depth": 1
+        }
+    ],
+    "Hips": [
+        {
+            "name": "Gluteus Maximus",
+            "depth": 1
+        },
+        {
+            "name": "Abductors",
+            "depth": 1
+        },
+        {
+            "name": "Flexors",
+            "depth": 1
+        },
+        {
+            "name": "Deep External Rotators",
+            "depth": 1
+        }
+    ],
+    "Thighs": [
+        {
+            "name": "Quadriceps",
+            "depth": 1
+        },
+        {
+            "name": "Hamstrings",
+            "depth": 1
+        },
+        {
+            "name": "Hip Adductors",
+            "depth": 1
+        }
+    ],
+    "Other Exercises": [
+        {
+            "name": "Olympic-style Weightlifts",
+            "depth": 1
+        },
+        {
+            "name": "Plyometrics",
+            "depth": 1
+        },
+        {
+            "name": "Cardio",
+            "depth": 1
+        },
+        {
+            "name": "Kettlebell",
+            "depth": 1
+        },
+        {
+            "name": "Miscellaneous",
+            "depth": 1
+        }
+    ]
+}
